@@ -1,13 +1,14 @@
-module github.com/RedTeamPentesting/adauth
+module github.com/bryanmcnulty/adauth
 
-go 1.23.3
+go 1.24.0
 
 require (
 	github.com/Azure/go-ntlmssp v0.0.0-20221128193559-754e69321358
+	github.com/RedTeamPentesting/adauth v0.1.0
 	github.com/go-ldap/ldap/v3 v3.4.11-0.20250110131057-5d1b644709df
 	github.com/oiweiwei/go-msrpc v1.2.1
 	github.com/oiweiwei/gokrb5.fork/v9 v9.0.2
-	github.com/spf13/pflag v1.0.5
+	github.com/spf13/pflag v1.0.6
 	github.com/vadimi/go-ntlm v1.2.1
 	software.sslmate.com/src/go-pkcs12 v0.5.0
 )
