@@ -12,15 +12,16 @@ import (
 
 	"github.com/RedTeamPentesting/adauth"
 	"github.com/RedTeamPentesting/adauth/ccachetools"
-	"github.com/jcmturner/gokrb5/v8/config"
-	"github.com/jcmturner/gokrb5/v8/credentials"
-	"github.com/jcmturner/gokrb5/v8/iana/nametype"
-	"github.com/jcmturner/gokrb5/v8/iana/patype"
-	"github.com/jcmturner/gokrb5/v8/krberror"
-	"github.com/jcmturner/gokrb5/v8/messages"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/oiweiwei/gokrb5.fork/v9/config"
+	"github.com/oiweiwei/gokrb5.fork/v9/credentials"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/nametype"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/patype"
+	"github.com/oiweiwei/gokrb5.fork/v9/krberror"
+	"github.com/oiweiwei/gokrb5.fork/v9/messages"
+	"github.com/oiweiwei/gokrb5.fork/v9/types"
 	"github.com/oiweiwei/go-msrpc/msrpc/pac"
 	"github.com/oiweiwei/go-msrpc/ndr"
+	ftypes "github.com/oiweiwei/gokrb5.fork/v9/types"
 )
 
 // UnPACTheHash retrieves the user's NT hash via PKINIT using the provided PFX
@@ -204,7 +205,7 @@ func extractNTHash(
 		return nil, fmt.Errorf("unmarshal PAC_CREDENTIAL_INFO: %w", err)
 	}
 
-	credData, err := credInfo.DecryptCredentialData(pkinitKey)
+	credData, err := credInfo.DecryptCredentialData(ftypes.EncryptionKey(pkinitKey))
 	if err != nil {
 		return nil, fmt.Errorf("decrypt PAC_CREDENTIAL_DATA: %w", err)
 	}

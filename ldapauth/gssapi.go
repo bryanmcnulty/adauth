@@ -12,23 +12,23 @@ import (
 	"strings"
 
 	"github.com/RedTeamPentesting/adauth/pkinit"
-	"github.com/jcmturner/gokrb5/v8/client"
-	"github.com/jcmturner/gokrb5/v8/config"
-	"github.com/jcmturner/gokrb5/v8/iana/chksumtype"
-	"github.com/jcmturner/gokrb5/v8/iana/etypeID"
-	"github.com/jcmturner/gokrb5/v8/iana/flags"
-	"github.com/jcmturner/gokrb5/v8/iana/nametype"
-	"github.com/jcmturner/gokrb5/v8/krberror"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/oiweiwei/gokrb5.fork/v9/client"
+	"github.com/oiweiwei/gokrb5.fork/v9/config"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/chksumtype"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/etypeID"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/flags"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/nametype"
+	"github.com/oiweiwei/gokrb5.fork/v9/krberror"
+	"github.com/oiweiwei/gokrb5.fork/v9/types"
 
-	krb5GSSAPI "github.com/jcmturner/gokrb5/v8/gssapi"
-	"github.com/jcmturner/gokrb5/v8/spnego"
+	krb5GSSAPI "github.com/oiweiwei/gokrb5.fork/v9/gssapi"
+	"github.com/oiweiwei/gokrb5.fork/v9/spnego"
 
-	krb5Crypto "github.com/jcmturner/gokrb5/v8/crypto"
-	"github.com/jcmturner/gokrb5/v8/iana/keyusage"
-	"github.com/jcmturner/gokrb5/v8/messages"
+	krb5Crypto "github.com/oiweiwei/gokrb5.fork/v9/crypto"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/keyusage"
+	"github.com/oiweiwei/gokrb5.fork/v9/messages"
 
-	"github.com/jcmturner/gokrb5/v8/credentials"
+	"github.com/oiweiwei/gokrb5.fork/v9/credentials"
 )
 
 type gssapiClient struct {

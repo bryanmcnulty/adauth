@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/oiweiwei/gokrb5.fork/v9/types"
 )
 
 type SignerInfo struct {

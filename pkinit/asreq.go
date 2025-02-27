@@ -11,10 +11,10 @@ import (
 	mathRand "math/rand"
 	"time"
 
-	"github.com/jcmturner/gokrb5/v8/config"
-	"github.com/jcmturner/gokrb5/v8/iana/nametype"
-	"github.com/jcmturner/gokrb5/v8/messages"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/oiweiwei/gokrb5.fork/v9/config"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/nametype"
+	"github.com/oiweiwei/gokrb5.fork/v9/messages"
+	"github.com/oiweiwei/gokrb5.fork/v9/types"
 )
 
 // NewASReq generates an ASReq configured for PKINIT.

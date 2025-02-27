@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"math/big"
 
-	krb5crypto "github.com/jcmturner/gokrb5/v8/crypto"
-	"github.com/jcmturner/gokrb5/v8/iana/etypeID"
-	"github.com/jcmturner/gokrb5/v8/iana/keyusage"
-	"github.com/jcmturner/gokrb5/v8/messages"
-	"github.com/jcmturner/gokrb5/v8/types"
+	krb5crypto "github.com/oiweiwei/gokrb5.fork/v9/crypto"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/etypeID"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/keyusage"
+	"github.com/oiweiwei/gokrb5.fork/v9/messages"
+	"github.com/oiweiwei/gokrb5.fork/v9/types"
 )
 
 // Decrypt decrypts the encrypted parts of an ASRep with the key derived during PKINIT.

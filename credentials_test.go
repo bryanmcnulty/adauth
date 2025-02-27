@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	"github.com/RedTeamPentesting/adauth"
-	"github.com/jcmturner/gokrb5/v8/iana/etypeID"
-	"github.com/jcmturner/gokrb5/v8/iana/nametype"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/etypeID"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/nametype"
+	"github.com/oiweiwei/gokrb5.fork/v9/types"
 )
 
 func TestKeytab(t *testing.T) {

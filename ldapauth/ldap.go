@@ -24,7 +24,7 @@ import (
 	"software.sslmate.com/src/go-pkcs12"
 
 	"github.com/go-ldap/ldap/v3"
-	"github.com/jcmturner/gokrb5/v8/client"
+	"github.com/oiweiwei/gokrb5.fork/v9/client"
 	"github.com/spf13/pflag"
 )
 

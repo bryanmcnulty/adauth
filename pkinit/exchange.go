@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/RedTeamPentesting/adauth/ccachetools"
-	"github.com/jcmturner/gokrb5/v8/config"
-	"github.com/jcmturner/gokrb5/v8/credentials"
-	"github.com/jcmturner/gokrb5/v8/messages"
+	"github.com/oiweiwei/gokrb5.fork/v9/config"
+	"github.com/oiweiwei/gokrb5.fork/v9/credentials"
+	"github.com/oiweiwei/gokrb5.fork/v9/messages"
 )
 
 // DefaultKerberosRoundtripDeadline is the maximum time a roundtrip with the KDC

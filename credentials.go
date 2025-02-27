@@ -12,10 +12,10 @@ import (
 	"time"
 
 	"github.com/RedTeamPentesting/adauth/othername"
-	"github.com/jcmturner/gokrb5/v8/config"
-	"github.com/jcmturner/gokrb5/v8/credentials"
-	"github.com/jcmturner/gokrb5/v8/iana/etypeID"
-	"github.com/jcmturner/gokrb5/v8/keytab"
+	"github.com/oiweiwei/gokrb5.fork/v9/config"
+	"github.com/oiweiwei/gokrb5.fork/v9/credentials"
+	"github.com/oiweiwei/gokrb5.fork/v9/iana/etypeID"
+	"github.com/oiweiwei/gokrb5.fork/v9/keytab"
 	"software.sslmate.com/src/go-pkcs12"
 )
 

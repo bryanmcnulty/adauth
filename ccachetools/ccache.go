@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jcmturner/gokrb5/v8/credentials"
-	"github.com/jcmturner/gokrb5/v8/messages"
-	"github.com/jcmturner/gokrb5/v8/types"
+	"github.com/oiweiwei/gokrb5.fork/v9/credentials"
+	"github.com/oiweiwei/gokrb5.fork/v9/messages"
+	"github.com/oiweiwei/gokrb5.fork/v9/types"
 )
 
 // NewCCache constructs an in-memory CCache.
