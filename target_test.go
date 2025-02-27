@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/RedTeamPentesting/adauth"
+	"github.com/bryanmcnulty/adauth"
 )
 
 func TestNewTarget(t *testing.T) {

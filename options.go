@@ -11,7 +11,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/RedTeamPentesting/adauth/othername"
+	"github.com/bryanmcnulty/adauth/othername"
 	"github.com/spf13/pflag"
 	"software.sslmate.com/src/go-pkcs12"
 )

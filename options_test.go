@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/RedTeamPentesting/adauth"
+	"github.com/bryanmcnulty/adauth"
 )
 
 const (

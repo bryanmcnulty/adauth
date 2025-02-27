@@ -5,7 +5,7 @@ import (
 	"crypto/x509/pkix"
 	"testing"
 
-	"github.com/RedTeamPentesting/adauth/othername"
+	"github.com/bryanmcnulty/adauth/othername"
 )
 
 func TestOtherName(t *testing.T) {

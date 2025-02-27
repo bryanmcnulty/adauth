@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/RedTeamPentesting/adauth"
+	"github.com/bryanmcnulty/adauth"
 	"github.com/oiweiwei/gokrb5.fork/v9/iana/etypeID"
 	"github.com/oiweiwei/gokrb5.fork/v9/iana/nametype"
 	"github.com/oiweiwei/gokrb5.fork/v9/types"

@@ -18,9 +18,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RedTeamPentesting/adauth"
-	"github.com/RedTeamPentesting/adauth/othername"
-	"github.com/RedTeamPentesting/adauth/pkinit"
+	"github.com/bryanmcnulty/adauth"
+	"github.com/bryanmcnulty/adauth/othername"
+	"github.com/bryanmcnulty/adauth/pkinit"
 	"software.sslmate.com/src/go-pkcs12"
 
 	"github.com/go-ldap/ldap/v3"

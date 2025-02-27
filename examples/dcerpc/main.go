@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/RedTeamPentesting/adauth"
-	"github.com/RedTeamPentesting/adauth/dcerpcauth"
+	"github.com/bryanmcnulty/adauth"
+	"github.com/bryanmcnulty/adauth/dcerpcauth"
 	"github.com/oiweiwei/go-msrpc/dcerpc"
 	"github.com/oiweiwei/go-msrpc/msrpc/dtyp"
 	"github.com/oiweiwei/go-msrpc/msrpc/epm/epm/v3"

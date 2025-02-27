@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/RedTeamPentesting/adauth/pkinit"
+	"github.com/bryanmcnulty/adauth/pkinit"
 	"github.com/oiweiwei/gokrb5.fork/v9/client"
 	"github.com/oiweiwei/gokrb5.fork/v9/config"
 	"github.com/oiweiwei/gokrb5.fork/v9/iana/chksumtype"

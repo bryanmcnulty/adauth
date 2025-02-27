@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/RedTeamPentesting/adauth"
-	"github.com/RedTeamPentesting/adauth/ldapauth"
+	"github.com/bryanmcnulty/adauth"
+	"github.com/bryanmcnulty/adauth/ldapauth"
 	"github.com/spf13/pflag"
 )
 

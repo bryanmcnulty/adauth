@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/RedTeamPentesting/adauth"
-	"github.com/RedTeamPentesting/adauth/pkinit"
+	"github.com/bryanmcnulty/adauth"
+	"github.com/bryanmcnulty/adauth/pkinit"
 
 	"github.com/oiweiwei/go-msrpc/dcerpc"
 	"github.com/oiweiwei/go-msrpc/smb2"

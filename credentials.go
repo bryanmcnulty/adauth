@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/RedTeamPentesting/adauth/othername"
+	"github.com/bryanmcnulty/adauth/othername"
 	"github.com/oiweiwei/gokrb5.fork/v9/config"
 	"github.com/oiweiwei/gokrb5.fork/v9/credentials"
 	"github.com/oiweiwei/gokrb5.fork/v9/iana/etypeID"

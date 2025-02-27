@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/RedTeamPentesting/adauth/ccachetools"
-	"github.com/RedTeamPentesting/adauth/pkinit"
+	"github.com/bryanmcnulty/adauth/ccachetools"
+	"github.com/bryanmcnulty/adauth/pkinit"
 	"github.com/spf13/pflag"
 )
 

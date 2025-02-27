@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/RedTeamPentesting/adauth"
+	"github.com/bryanmcnulty/adauth"
 )
 
 type testResolver struct {

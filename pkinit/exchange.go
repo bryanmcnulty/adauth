@@ -10,7 +10,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/RedTeamPentesting/adauth/ccachetools"
+	"github.com/bryanmcnulty/adauth/ccachetools"
 	"github.com/oiweiwei/gokrb5.fork/v9/config"
 	"github.com/oiweiwei/gokrb5.fork/v9/credentials"
 	"github.com/oiweiwei/gokrb5.fork/v9/messages"
